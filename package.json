@@ -1,0 +1,40 @@
+{
+  "name": "reactra",
+  "version": "0.0.1",
+  "description": "ReactRa : a modern React application toolchains.",
+  "main": "src/index.js",
+  "scripts": {
+    "clean": "rm -rf dist .cache",
+    "start": "parcel public/index.html --open --port 7777",
+    "build": "parcel build public/index.html",
+    "build-dev": "NODE_ENV=development parcel build public.html --no-minify",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/rawewhat/reactra.git",
+  "keywords": [
+    "ra",
+    "react",
+    "js",
+    "javascript",
+    "toolchain"
+  ],
+  "author": "Cheng Sokdara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rawewhat/reactra/issues"
+  },
+  "homepage": "https://github.com/rawewhat/reactra#readme",
+  "dependencies": {
+    "prettier": "^1.18.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/preset-react": "^7.0.0",
+    "parcel-bundler": "^1.12.3"
+  },
+  "private": false
+}
